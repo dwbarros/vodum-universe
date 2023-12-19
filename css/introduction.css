@@ -1,0 +1,21 @@
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.introduction div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.introduction h2 {
+    font-size: 5rem;
+}
+
+.introduction p {
+    line-height: 1.5;
+    font-size: 1.7rem;
+}

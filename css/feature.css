@@ -1,0 +1,22 @@
+.feature {
+    padding: 2rem;
+    text-align: justify;
+}
+
+.feature_content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.feature h2 {
+    font-size: 5rem;
+}
+.feature h3 {
+    font-size: 1.7rem;
+}
+
+.feature p {
+    margin-top: 3rem;
+    line-height: 1.5;
+    font-size: 1.7rem;
+}
