@@ -5,7 +5,7 @@
     padding: 2rem;
 }
 
-.introduction div {
+.introduction article {
     width: 70%;
     margin: 0 auto;
     text-align: justify;
@@ -18,4 +18,18 @@
 .introduction p {
     line-height: 1.5;
     font-size: 1.7rem;
+}   
+
+@media screen and (max-width: 768px) {
+    .introduction h2 {
+        font-size: 3rem;
+    }
+
+    .introduction article {
+        width: 90%;
+    }
+
+    .introduction p {
+        font-size: 1.3rem;
+    }
 }

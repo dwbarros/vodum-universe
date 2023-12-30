@@ -1,0 +1,35 @@
+.story {
+    padding: 2rem;
+    padding-top: 4rem;
+    text-align: justify;
+    background: radial-gradient(circle at top, rgba(59, 125, 140, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.story article {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.7rem;
+}
+
+.story p {
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .story {
+        padding: 1rem;
+        padding-top: 3rem;
+    }
+
+    .story article {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .story article {
+        font-size: 1.3rem;
+    }
+}
