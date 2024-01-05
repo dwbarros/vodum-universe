@@ -27,24 +27,25 @@
     justify-content: center;
     align-items: center;
     margin: 0 1rem;
-    font-family: 'Roboto Mono', monospace;
-
 }
 
 .header nav a {
     color: var(--textColor-title);
-    font-family: 'Roboto mono', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    padding: .3rem .7rem;
+    border-radius: 8px;
+    background-color: var(--color-black);
+    filter: opacity(.7);
     transition: color 0.2s;
 }
 
 .header nav a+a {
-    margin-left: 2rem;
+    margin-left: .8rem;
 }
 
 .header nav a:hover {
-    color: var(--color-blue-500);
+    filter: brightness(.5);
 }
 
 .socialLinks {

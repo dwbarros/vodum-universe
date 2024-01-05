@@ -5,29 +5,12 @@
     padding: 2rem;
     height: 100vh;
     position: relative;
-    background: radial-gradient(circle at left, rgba(59, 125, 140, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-.navigation nav {
-    display: flex;
-    align-items: flex-start;
-    text-decoration: none;
-    font-family: 'League Gothic', sans-serif;
-    flex-direction: column;
-    font-size: 3rem;
-    padding: 3rem;
-    width: 30%;
-}
-
-.navigation nav a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    margin-bottom: 1rem;
+    background: radial-gradient(circle at left, var(--color-primary) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .navigation div {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -37,6 +20,9 @@
     max-width: 50%;
     margin: 2rem;
 }
+.navigation h2 {
+    font-size: 5rem;
+}
 
 .navigation p {
     text-align: center;
@@ -44,6 +30,11 @@
     font-size: 1.5rem;
     margin: 2rem;
     width: 40%;
+}
+
+.doll-hero {
+    max-width: 350px;
+
 }
 
 @media screen and (max-width: 1024px) {

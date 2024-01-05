@@ -2,12 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background: url('/assets/img/F8FlOOOWQAAsdzW.jpg') center/cover;
     padding: 2rem;
     padding-top: 5rem;
     height: 100vh;
     width: 100%;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    background: url('/assets/img/hero_bg.png') center/cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .hero div {
@@ -23,17 +25,46 @@
     margin: 1rem 1rem;
 }
 
-.hero span {
-    font-size: 2.2rem;
-    text-align: center;
+.hero nav {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    font-family: 'League Gothic', sans-serif;
+    flex-direction: column;
+    font-size: 3rem;
+    padding: 3rem;
+    width: 30%;
+}
+
+.hero nav a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.fire {
+    width: 30%;
+
+    position: absolute;
+    bottom: -14px;
+}
+
+.light-effect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vmin;
+    height: 100vmin;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--color-primary) 0%, rgba(255, 255, 255, 0) 70%);
+    pointer-events: none;
+    z-index: 1;
 }
 
 @media screen and (max-width: 425px) {
     .hero h1 {
         font-size: 7rem;
-    }
-
-    .hero span {
-        font-size: 2rem;
     }
 }

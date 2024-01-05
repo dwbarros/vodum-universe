@@ -1,16 +1,77 @@
+:root {
+
+  --color-primary: #1566;
+  --color-secondary: hwb(15 6% 6%);
+
+  --color-grey: #F2F2F2;
+  --color-black: rgb(15, 6, 6);
+  --color-black-800: hsl(15, 6%, 6%);
+  --color-red: hwb(15 6% 6%);
+  --color-blue2: #0ff;
+  --color-blue3: #1566ff;
+
+  --background: var(--color-black);
+  --shape: #FFF;
+
+  --input-bg: #e7e9ee;
+  --input-border: #d7d7d7;
+
+  --text-title: var(--color-grey);
+  --text-body: var(--color-grey);
+}
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
 }
 
 body {
-  background: #000000;
-  font-family: 'Lancelot', serif;
-  color: #f2f2f2;
+  -webkit-font-smoothing: antialiased;
+  background: var(--background);
+  color: var(--text-body);
   margin: 0;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Lancelot', serif;
+  font-weight: 400;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6,
+strong {
   font-family: 'League Gothic', sans-serif;
+  font-weight: 600;
+  color: var(--text-title);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
 }

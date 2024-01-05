@@ -2,7 +2,7 @@
     padding: 2rem;
     padding-top: 4rem;
     text-align: justify;
-    background: radial-gradient(circle at top, rgba(59, 125, 140, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(circle at top, var(--color-primary) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .story article {
