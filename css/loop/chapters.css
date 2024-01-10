@@ -1,0 +1,193 @@
+.chapters article {
+    height: 50vh;
+    padding: 3rem;
+    margin-bottom: 1rem;
+}
+
+.chapters article div {
+    height: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chapters article h3 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.chapters article p {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.chapters article a:hover h3{
+    color: var(--color-secondary);
+}
+
+.chapters .lock {
+    width: 60px;
+
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+}
+  
+.chapter01 {
+    position: relative;
+}
+
+.chapter01::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('/assets/img/loop/imgs/loopDR_wide_01.png') top/cover;
+    filter: brightness(.3);
+    z-index: -1;
+}
+
+.chapter02 {
+    position: relative;
+}
+
+.chapter02::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('/assets/img/loop/imgs/loopDR_wide_02.png') top/cover;
+    filter: brightness(.3);
+    z-index: -1;
+}
+
+.chapter03 {
+    position: relative;
+}
+
+.chapter03::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('/assets/img/loop/imgs/loopDR_wide_03.png') top/cover;
+    filter: brightness(.3);
+    z-index: -1;
+}
+
+.chapter04 {
+    position: relative;
+}
+
+.chapter04::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('/assets/img/loop/imgs/loopDR_wide_04.jpg') top/cover;
+    filter: brightness(.3);
+    z-index: -1;
+}
+
+.chapter05 {
+    position: relative;
+}
+
+.chapter05::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('/assets/img/loop/imgs/loopDR_wide_05.png') top/cover;
+    filter: brightness(.3);
+    z-index: -1;
+}
+
+.chapter06 {
+    position: relative;
+}
+
+.chapter06::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('/assets/img/loop/imgs/loopDR_wide_06.png') top/cover;
+    filter: brightness(.3);
+    z-index: -1;
+}
+
+.epilogue {
+    position: relative;
+}
+
+.epilogue::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('/assets/img/loop/imgs/loopDR_wide_07.png') top/cover;
+    filter: brightness(.3);
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .chapters article div {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chapters article {
+        height: auto;
+    }
+
+    .chapters article div {
+        max-width: 90%;
+    }
+
+    .chapters article h3 {
+        font-size: 2rem;
+    }
+    
+    .chapters article p {
+        font-size: 1rem;
+    }
+
+    .chapters .lock {
+        width: 40px;
+    
+        position: absolute;
+        right: 4%;
+        bottom: 4%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .chapters article h3 {
+        font-size: 1.7rem;
+    }
+    
+    .chapters article p {
+        font-size: .8rem;
+    }
+}

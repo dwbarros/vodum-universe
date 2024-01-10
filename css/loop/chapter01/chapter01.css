@@ -1,0 +1,7 @@
+.hero {
+    padding: 3rem;
+    height: 100vh;
+    width: 100%;    
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    background: url('/assets/img/loop/imgs/loopDR_wide_04.jpg') top/cover;
+}

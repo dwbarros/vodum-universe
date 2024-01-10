@@ -1,0 +1,171 @@
+.about {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 80px 2rem 3rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.about h2 {
+  font-size: 4rem;
+  margin-bottom: 3cqi;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.figure-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.block01 {
+  padding: 2rem;
+  border-radius: 18px;
+  background: radial-gradient(circle at top, var(--color-primary) 0%, rgba(255, 255, 255, 0) 90%);
+
+  grid-column: span 2;
+  grid-row: span 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block01 p {
+  width: 80%;
+  text-align: center;
+}
+
+.block01 figure img {
+  height: 200px;
+}
+
+.block01 span {
+  margin-top: 3rem;
+}
+
+.block02 {
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 2rem;
+  }
+
+  .about h2 {
+    font-size: 3rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  .block01 {
+    grid-column: span 2;
+  }
+
+  .block02 {
+    grid-column: span 2;
+  }
+
+  .block03 {
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .block03 img {
+    width: 60%;
+    height: 300px;
+  }
+
+  .block04 {
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .block04 img {
+    width: 60%;
+    height: 300px;
+  }
+
+  .block05 {
+    grid-column: span 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about h2 {
+    font-size: 3rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  .block01 {
+    padding: 4rem;
+    grid-column: span 2;
+    order: 1;
+  }
+
+  .block02 {
+    grid-column: span 2;
+    order: 2;
+
+  }
+
+  .block03 {
+    grid-column: span 1;
+    order: 3;
+
+  }
+
+  .block03 img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .block04 {
+    grid-column: span 1;
+    order: 4;
+
+  }
+
+  .block04 img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about {
+    padding: 80px .5rem 2rem .5rem;
+  }
+
+  .about h2 {
+    font-size: 2.1rem;
+  }
+
+  .about p {
+    font-size: .9rem;
+  }
+}

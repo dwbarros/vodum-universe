@@ -1,0 +1,87 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+    position: relative;
+    background: radial-gradient(circle at left, var(--color-primary) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.navigation div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation video {
+    border-radius: 8px;
+    max-width: 50%;
+    margin: 2rem;
+}
+.navigation h2 {
+    font-size: 5rem;
+}
+
+.navigation p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin: 2rem;
+    width: 40%;
+}
+
+.doll-hero {
+    max-width: 350px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .navigation {
+        height: auto;
+    }
+
+    .navigation p {
+        font-size: 1.3rem;
+        width: 70%;
+    }
+
+    .navigation div {
+        flex-direction: column;
+    }
+
+    .navigation video {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigation nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+        font-size: 2.5rem;
+    }
+    
+    .navigation nav a {
+        margin: 0 1rem;
+    }
+
+    .navigation video {
+        max-width: 100%;
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navigation nav {
+        font-size: 2.2rem;
+    }
+}

@@ -1,20 +1,19 @@
 :root {
 
   --color-primary: #1566;
-  --color-secondary: hwb(15 6% 6%);
+  --color-secondary: #ff9900;
+  --color-tertiary: #0ff;
 
   --color-grey: #F2F2F2;
-  --color-black: rgb(15, 6, 6);
-  --color-black-800: hsl(15, 6%, 6%);
-  --color-red: hwb(15 6% 6%);
-  --color-blue2: #0ff;
-  --color-blue3: #1566ff;
+
+  --color-black: #000000;
+  --color-black1566: rgb(15, 6, 6);
+  --color-black1566-800: hsl(15, 6%, 6%);
+  --color-red1566: hwb(15 6% 6%);
+  --color-blue1566: #1566ff;
 
   --background: var(--color-black);
-  --shape: #FFF;
-
-  --input-bg: #e7e9ee;
-  --input-border: #d7d7d7;
+  --shape: var(--color-grey);
 
   --text-title: var(--color-grey);
   --text-body: var(--color-grey);
@@ -46,8 +45,10 @@ body {
 body,
 input,
 textarea,
-button {
-  font-family: 'Lancelot', serif;
+button,
+p {
+  font-family: 'Nova Slim', system-ui;
+  /* font-family: 'Lancelot', serif; */
   font-weight: 400;
 }
 
@@ -58,7 +59,8 @@ h4,
 h5,
 h6,
 strong {
-  font-family: 'League Gothic', sans-serif;
+  font-family: 'Nova Square', sans-serif;
+  /* font-family: 'League Gothic', sans-serif; */
   font-weight: 600;
   color: var(--text-title);
 }
@@ -68,7 +70,12 @@ button {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
 }
 
 [disabled] {

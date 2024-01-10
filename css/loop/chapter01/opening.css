@@ -1,0 +1,66 @@
+.opening {
+    height: 60vh;
+    width: 100%;
+    padding: 3rem;
+}
+
+.opening article {
+    height: 100%;
+}
+
+.opening article div{
+    height: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opening h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.opening p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.opening p + p{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .opening article div{
+        max-width: 80%;
+    }
+
+    .opening h3 {
+        font-size: 2.5rem;
+    }
+
+    .opening p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .opening article div{
+        max-width: 90%;
+    }
+
+    .opening {
+        height: auto;
+    }
+
+    .opening h3 {
+        font-size: 2rem;
+    }
+
+    .opening p {
+        font-size: 1.1rem;
+    }
+}
