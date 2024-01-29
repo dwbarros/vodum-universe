@@ -1,7 +1,7 @@
 .opening {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
-    padding: 3rem;
+    padding: 5rem 3rem;
 }
 
 .opening article {
@@ -10,7 +10,7 @@
 
 .opening article div{
     height: 100%;
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 
     display: flex;
@@ -18,8 +18,8 @@
     justify-content: center;
 }
 
-.opening h3 {
-    font-size: 3rem;
+.opening h2 {
+    font-size: 4rem;
     margin-bottom: 3rem;
 }
 
@@ -38,7 +38,7 @@
         max-width: 80%;
     }
 
-    .opening h3 {
+    .opening h2 {
         font-size: 2.5rem;
     }
 
@@ -56,7 +56,7 @@
         height: auto;
     }
 
-    .opening h3 {
+    .opening h2 {
         font-size: 2rem;
     }
 

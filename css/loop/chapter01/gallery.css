@@ -1,10 +1,25 @@
 .gallery {
-  padding: 2rem;
+  padding: 3rem;
 }
 
-.gallery_wrapper {
-  width: 80%;
+.gallery div {
+  max-width: 80%;
   margin: 0 auto;
+}
+
+.gallery-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.1rem;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  margin: 0 auto;
+}
+
+.gallery h3 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
 }
 
 .gallery-title {
@@ -23,11 +38,7 @@
   color: #FFFFFF;
 }
 
-.gallery h2 {
-  font-size: 4rem;
-}
-
-.menu {
+.gallery .menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -39,11 +50,11 @@
   padding: 0 20px;
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: #201f1f, 5px ;
+  box-shadow: #201f1f, 5px;
   z-index: 1500;
 }
 
-.menu-icons {
+.gallery .menu-icons {
   display: flex;
   gap: 20px;
 }
@@ -53,9 +64,6 @@
   height: 25px;
 }
 
-
-
-
 .gallery img {
   width: 100%;
   display: block;
@@ -63,29 +71,6 @@
   object-fit: cover;
   transition: transform 1000ms;
 
-}
-
-/* .gallery ul {
-  list-style: none;
-  margin: 0;
-  padding: 1vh;
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  max-width: 100%;
-  width: 100rem;
-  margin-top: 40px;
-} */
-
-.gallery ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 0.1rem;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  max-width: 100%;
-  width: 100%;
 }
 
 figure {
@@ -274,12 +259,14 @@ figure::after {
   font-size: 3vh;
   font-weight: bold;
 }
+
 .techPowerScore-title,
 .techPowerScore-value {
   font-size: 2vh;
   margin-bottom: 20px;
 
 }
+
 .mastery-title,
 .mastery-value {
   font-size: 3vh;
@@ -292,12 +279,12 @@ figure::after {
   font-weight: bold;
   padding-top: 0px;
   padding-bottom: 30px;
- 
+
 }
 
 .connection-value {
   font-size: 2vh;
-font-style: italic; 
+  font-style: italic;
 
 }
 
@@ -380,4 +367,24 @@ font-style: italic;
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery div {
+    max-width: 90%;
+  }
+
+  .characters h3 {
+    font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .gallery div {
+    max-width: 100%;
+  }
+
+  .characters h3 {
+    font-size: 2rem;
+}
 }

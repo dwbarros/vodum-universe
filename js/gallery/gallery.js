@@ -6,7 +6,7 @@
     // Função para carregar os dados do arquivo JSON de forma assíncrona
     async function constructor() {
         try {
-            const response = await fetch('js/json/charactersData.json');
+            const response = await fetch('/js/gallery/json/charactersData.json');
             if (!response.ok) {
                 throw new Error(`Failed to fetch characters data (${response.status} ${response.statusText})`);
             }
@@ -20,9 +20,9 @@
             console.error('Erro ao carregar dados do JSON:', error);
         }
     }
-    
+     
     function initializeGallery() {
-        let gallery = document.querySelector('.gallery_list'); // inicializa a variável global ou local
+        let gallery = document.querySelector('.gallery-list'); // inicializa a variável global ou local
 
         if (!gallery) {
             console.error('Elemento gallery não encontrado');
