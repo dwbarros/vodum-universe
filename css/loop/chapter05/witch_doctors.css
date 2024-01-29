@@ -1,0 +1,75 @@
+.witch-doctors {
+    width: 100%;
+}
+
+.witch-doctors article {
+    padding: 3rem 0;
+}
+
+.witch-doctors article img {
+    max-width: 100%;
+}
+
+.witch-doctors article div {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.witch-doctors h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.witch-doctors p,
+ul {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.witch-doctors ul {
+    margin-left: 2rem;
+}
+
+.witch-doctors p+p {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .witch-doctors article div {
+        max-width: 80%;
+    }
+
+    .witch-doctors h3 {
+        font-size: 2.5rem;
+    }
+
+    .witch-doctors p,
+    ul {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .witch-doctors article div {
+        max-width: 90%;
+    }
+
+    .witch-doctors {
+        height: auto;
+    }
+
+    .witch-doctors h3 {
+        font-size: 2rem;
+    }
+
+    .witch-doctors p,
+    ul {
+        font-size: 1.1rem;
+    }
+}
