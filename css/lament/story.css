@@ -1,0 +1,52 @@
+.story {
+    padding: 10rem 15rem;
+    padding-top: 70px;
+    background-color: var(--color-grey2);
+    color: var(--color-black1566-800);
+}
+
+.story div{
+    padding-bottom: 4rem;
+}
+
+.story h1 {
+    font-size: 6rem;
+    margin: 10rem 0;
+    color: var(--color-black1566-800);
+}
+
+.story h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+    color: var(--color-black1566-800);
+    font-family: 'League Gothic', sans-serif;
+}
+
+.story p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+    text-align: justify;
+    font-family: 'Lancelot', sans-serif;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .story {
+        padding: 5rem;
+    }
+    
+    .story div{
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .story {
+        padding: 5rem 2rem;
+    }
+    
+    .story div{
+        padding: 1rem 0;
+    }
+}
