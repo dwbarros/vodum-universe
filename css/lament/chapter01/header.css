@@ -22,7 +22,7 @@
     display: none;
 }
 
-.offLogo a img {
+.logo a img {
     max-width: 100%;
     width: 100px;
 }
@@ -73,6 +73,14 @@
 
 .socialLinks a:hover {
     transform: translate(0, -5px);
+}
+
+.socialLinks .icon-x {
+    height: 20px;
+}
+
+.socialLinks .icon-off {
+    height: 30px;
 }
 
 @media screen and (max-width: 768px) {

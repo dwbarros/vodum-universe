@@ -1,12 +1,10 @@
 .story {
-    padding: 10rem 15rem;
-    padding-top: 70px;
     background-color: var(--color-grey2);
     color: var(--color-black1566-800);
 }
 
-.story div{
-    padding-bottom: 4rem;
+.story article {
+    padding: 10rem 15rem;
 }
 
 .story h1 {
@@ -23,7 +21,7 @@
 }
 
 .story p {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     line-height: 1.5;
     margin: 1rem 0;
     text-align: justify;
@@ -31,22 +29,31 @@
 
 }
 
+.story nav {
+    padding: 3rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.story nav img {
+    width: 46px;
+}
+
+
 @media screen and (max-width: 1200px) {
     .story {
         padding: 5rem;
     }
-    
-    .story div{
+
+    .story article {
         padding: 3rem 0;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .story {
+    .story article {
         padding: 5rem 2rem;
-    }
-    
-    .story div{
-        padding: 1rem 0;
     }
 }

@@ -6,7 +6,7 @@
     background: var(--color-light);
     padding: 1rem 2rem;
     z-index: 1;
-    height: 70px;
+    height: 75px;
     width: 100%;
     font-size: 1rem;
     font-family: 'Nova Square', sans-serif;
@@ -22,7 +22,7 @@
     display: none;
 }
 
-.offLogo a img {
+.logo a img {
     max-width: 100%;
     width: 100px;
 }
@@ -64,6 +64,7 @@
 }
 
 .socialLinks a {
+    padding: .5rem;
     transition: transform 0.4s;
 }
 
@@ -73,6 +74,15 @@
 
 .socialLinks a:hover {
     transform: translate(0, -5px);
+}
+
+.socialLinks .icon-x {
+    height: 20px;
+
+}
+
+.socialLinks .icon-off {
+    height: 30px;
 }
 
 @media screen and (max-width: 768px) {

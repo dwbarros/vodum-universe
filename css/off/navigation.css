@@ -1,0 +1,30 @@
+nav {
+    height: 80vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto; 
+}
+
+.socialLinks img {
+    height: 25px;
+}
+
+.socialLinks a {
+    transition: transform 0.4s;
+}
+
+.socialLinks a+a {
+    margin-left: 1.5rem;
+}
+
+.socialLinks a:hover {
+    transform: translate(0, -5px);
+}

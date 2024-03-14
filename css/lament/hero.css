@@ -1,0 +1,31 @@
+.hero {
+    height: 100vh;
+    width: 100%;    
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    background: url('/assets/img/lament/lament_cover_expanded.jpeg') center/cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
+    height: 100%;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 8rem;
+    margin-top: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 7rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero h1 {
+        font-size: 5rem;
+    }
+}

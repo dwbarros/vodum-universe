@@ -25,9 +25,9 @@
     text-align: justify;
 }
 
-.chapters article a:hover h3{
+/* .chapters article a:hover h3{
     color: var(--color-secondary);
-}
+} */
 
 .chapters .lock {
     width: 60px;
