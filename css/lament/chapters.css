@@ -1,3 +1,7 @@
+.chapters {
+    padding-bottom: 5rem;
+}
+
 .chapters article {
     padding: 3rem;
 }
@@ -21,6 +25,7 @@
 .chapters article p {
     font-size: 1.3rem;
     text-align: justify;
+    line-height: 1.5;
 }
 
 .chapters article a:hover h3 {
@@ -30,7 +35,7 @@
 
 @media screen and (max-width: 1024px) {
     .chapters article div {
-        max-width: 70%;
+        max-width: 80%;
     }
 }
 
@@ -48,7 +53,7 @@
     }
 
     .chapters article p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .chapters .lock {
@@ -63,9 +68,5 @@
 @media screen and (max-width: 425px) {
     .chapters article h3 {
         font-size: 1.7rem;
-    }
-
-    .chapters article p {
-        font-size: .8rem;
     }
 }
