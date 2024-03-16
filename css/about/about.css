@@ -13,6 +13,11 @@
   text-align: center;
 }
 
+.about .title img{
+  width: 200px;
+  margin-bottom: 4rem;
+}
+
 .about p {
   font-size: 1.1rem;
   margin-bottom: 1rem;
@@ -67,6 +72,11 @@
 
   .about h2 {
     font-size: 3rem;
+  }
+
+  .about .title img{
+    width: 150px;
+    margin-bottom: 2rem;
   }
 
   .about p {

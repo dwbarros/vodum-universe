@@ -1,44 +1,30 @@
-.header {
+.footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     background: var(--color-light);
     padding: 1rem 2rem;
-    z-index: 1;
-    height: 75px;
+    height: 65px;
     width: 100%;
     font-size: 1rem;
-    font-family: 'Nova Square', sans-serif;
-
-    position: fixed;
-    top: 0;
-    left: 0;
 
     transition: all ease .5s;
 }
 
-.header.hideHeader {
-    display: none;
-}
-
-.logo a img {
-    width: 100px;
-}
-
-.header nav {
+.footer nav {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 1rem;
 }
 
-.header nav img {
+.footer nav img {
     width: 65px;
     padding: .1rem 0;
 }
 
-.header nav a {
+.footer nav a {
     color: var(--textColor-title);
     font-weight: 600;
     padding: .3rem .5rem;
@@ -48,12 +34,44 @@
     transition: color 0.2s;
 }
 
-.header nav a+a {
+.footer nav a+a {
     margin-left: .8rem;
 }
 
-.header nav a:hover img {
+.footer nav a:hover img {
     border-bottom: 1px solid var(--color-secondary);
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLinks img {
+    height: 25px;
+}
+
+.socialLinks a {
+    padding: .5rem;
+    transition: transform 0.4s;
+}
+
+.socialLinks a+a {
+    margin-left: 1.5rem;
+}
+
+.socialLinks a:hover {
+    transform: translate(0, -5px);
+}
+
+.socialLinks .icon-x {
+    height: 20px;
+
+}
+
+.socialLinks .icon-off {
+    height: 30px;
 }
 
 @media screen and (max-width: 768px) {}
