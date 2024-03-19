@@ -1,6 +1,5 @@
 .features {
     padding: 5rem 2em;
-    text-align: justify;
     background: radial-gradient(circle at bottom, var(--color-primary) 0%, rgba(255, 255, 255, 0) 60%);
 }
 

@@ -2,12 +2,13 @@
   max-width: 1600px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: justify;
 }
 
 .info p {
   font-size: 1.1rem;
-  line-height: 1.5;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .info img {
@@ -44,11 +45,16 @@
 .info_text2 {
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
 
 .info_text2 img {
-  width: 500px;
+  width: 30%;
   max-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: -250px;
+  right: 0px;
 }
 
 .info_text2 article {

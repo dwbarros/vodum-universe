@@ -1,10 +1,10 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     background: var(--color-light);
-    padding: 1rem 2rem;
+    padding: 0 2rem 1rem;
     z-index: 1;
     height: 75px;
     width: 100%;
@@ -22,38 +22,45 @@
     display: none;
 }
 
-.logo a img {
-    width: 100px;
-}
-
 .header nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 1rem;
-}
-
-.header nav img {
-    width: 65px;
-    padding: .1rem 0;
-}
-
-.header nav a {
     color: var(--textColor-title);
     font-weight: 600;
-    padding: .3rem .5rem;
+    padding: 1rem 1rem .5rem;
     border-radius: 8px;
     background-color: var(--color-black);
     filter: opacity(.7);
-    transition: color 0.2s;
+    margin: 0 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.header nav img {
+    transition: transform 0.4s;
+}
+
+#vodum_icon {
+    width: 80px;
+}
+
+#loop_icon {
+    width: 60px;
+}
+
+#lament_icon {
+    width: 95px;
+}
+
+.header nav a {
+    padding: 0 .8rem;
+}
 .header nav a+a {
     margin-left: .8rem;
 }
 
 .header nav a:hover img {
-    border-bottom: 1px solid var(--color-secondary);
+    transform: translate(0, -5px);
 }
 
 @media screen and (max-width: 768px) {}
