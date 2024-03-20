@@ -25,7 +25,7 @@
 .features p {
     margin-bottom: 2rem;
     line-height: 1.5;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -44,10 +44,6 @@
     .features h3 {
         font-size: 1.5rem;
     }
-
-    .features p {
-        font-size: 1.3rem;
-    }
 }
 
 @media screen and (max-width: 425px) {
@@ -65,9 +61,5 @@
 
     .features h3 {
         font-size: 1.1rem;
-    }
-
-    .features p {
-        font-size: 1rem;
     }
 }

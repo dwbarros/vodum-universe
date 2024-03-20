@@ -5,7 +5,7 @@
 }
 
 .info p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   margin-bottom: 1rem;
   text-align: center;
@@ -79,19 +79,11 @@
   .info h2 {
     font-size: 3rem;
   }
-
-  .info p {
-    font-size: 1rem;
-  }
 }
 
 @media screen and (max-width: 900px) {
   .info h2 {
     font-size: 3rem;
-  }
-
-  .info p {
-    font-size: 1rem;
   }
 
   .info article {
@@ -127,6 +119,8 @@
 
   .info_text2 figure img {
     position: inherit;
+    height: 900px;
+    width: auto;
   }
 
   .info_text1 article {
@@ -137,9 +131,5 @@
 @media screen and (max-width: 425px) {
   .info h2 {
     font-size: 2.1rem;
-  }
-
-  .info p {
-    font-size: .9rem;
   }
 }
