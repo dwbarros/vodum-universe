@@ -23,7 +23,6 @@
 }
 
 .chapters article p {
-    font-size: 1.3rem;
     line-height: 1.5;
 }
 
@@ -52,7 +51,6 @@
     }
 
     .chapters article p {
-        font-size: 1.2rem;
     }
 
     .chapters .lock {

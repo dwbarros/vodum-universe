@@ -4,7 +4,7 @@
 }
 
 .features article {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -20,12 +20,25 @@
 
 .features ol {
     font-size: 1.5rem;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .features p {
     margin-bottom: 2rem;
     line-height: 1.5;
-    font-size: 1.2rem;
+}
+
+.features .conclusion {
+    font-family: 'Nova Square', sans-serif;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .features ol {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -44,6 +57,10 @@
     .features h3 {
         font-size: 1.5rem;
     }
+
+    .features ol {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -53,13 +70,5 @@
 
     .features article {
         width: 90%;
-    }
-
-    .features h2 {
-        font-size: 2.5rem;
-    }
-
-    .features h3 {
-        font-size: 1.1rem;
     }
 }

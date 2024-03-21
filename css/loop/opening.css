@@ -26,7 +26,6 @@
 }
 
 .opening p {
-    font-size: 1.5rem;
     line-height: 1.7;
 }
 
@@ -44,7 +43,6 @@
     }
 
     .opening p {
-        font-size: 1.3rem;
     }
 }
 
@@ -62,6 +60,5 @@
     }
 
     .opening p {
-        font-size: 1.1rem;
     }
 }

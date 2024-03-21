@@ -21,7 +21,6 @@
 }
 
 .chapters article p {
-    font-size: 1.3rem;
 }
 
 /* .chapters article a:hover h3{
@@ -169,7 +168,6 @@
     }
     
     .chapters article p {
-        font-size: 1rem;
     }
 
     .chapters .lock {
@@ -187,6 +185,5 @@
     }
     
     .chapters article p {
-        font-size: .8rem;
     }
 }
