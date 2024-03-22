@@ -64,6 +64,11 @@
 
 @media screen and (max-width: 425px) {
     .chapters article h3 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+    }
+
+    .chapters article p {
+        line-height: 1.5;
+        font-size: 1.1rem;
     }
 }

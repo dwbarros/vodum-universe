@@ -9,19 +9,18 @@
 }
 
 .opening article div{
-    height: 100vh;
+    height: 100%;
     max-width: 70%;
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
 .opening h3 {
     font-size: 3rem;
-    text-align: center;
+    margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
@@ -45,7 +44,7 @@
     .opening p {
     }
 }
-
+ 
 @media screen and (max-width: 800px) {
     .opening article div{
         max-width: 90%;
@@ -53,6 +52,7 @@
 
     .opening {
         height: auto;
+        padding: 2rem;
     }
 
     .opening h3 {
@@ -60,5 +60,6 @@
     }
 
     .opening p {
+        font-size: 1.1rem;
     }
 }

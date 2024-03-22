@@ -47,7 +47,6 @@
 @media screen and (max-width: 800px) {
     .opening {
         padding: 5rem 2rem;
-
     }
 
     .opening article div{
@@ -59,5 +58,6 @@
     }
 
     .opening p {
+        font-size: 1.1rem;
     }
 }
