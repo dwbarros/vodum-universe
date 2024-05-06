@@ -13,6 +13,8 @@ async function constructor() {
 
         if (characters) {
             initializeGallery();
+            createAccordion();
+            populateAccordionDetails();
         }
     } catch (error) {
         console.error('Erro ao carregar dados do JSON:', error);
@@ -53,6 +55,70 @@ function initializeGallery() {
         li.appendChild(a);
         gallery.appendChild(li);
     }
+}
+
+
+function createAccordion() {
+    const accordionContainer = document.querySelector('.accordion-container');
+
+    if (!accordionContainer) {
+        console.error('Elemento .accordion-container não encontrado');
+        return;
+    }
+
+    const desiredKeys = ["intelligence", "wisdom", "interfacing", "mysticPower", "mysticPowerScore", "techPowerScore"];
+
+    desiredKeys.forEach(key => {
+        const button = document.createElement('button');
+        button.classList.add('accordion-button');
+        button.textContent = key;
+        accordionContainer.appendChild(button);
+
+        const panel = document.createElement('div');
+        panel.classList.add('accordion-panel');
+        const content = document.createElement('div');
+        content.classList.add('accordion-content');
+        panel.appendChild(content);
+        accordionContainer.appendChild(panel);
+    });
+
+    toggleAccordion();
+}
+
+function populateAccordionDetails() {
+    const panels = document.querySelectorAll('.accordion-panel');
+
+    panels.forEach((panel, index) => {
+        const content = panel.querySelector('.accordion-content');
+
+        for (const key of Object.keys(characters[index])) {
+            if (key === "name" || key === "poeticName" || key === "description" || key === "connection" || key === "fileType") {
+                continue;
+            }
+
+            const value = characters[index][key];
+            const p = document.createElement('p');
+            p.textContent = `${key}: ${value}`;
+            content.appendChild(p);
+        }
+    });
+}
+
+
+function toggleAccordion() {
+    const accordions = document.querySelectorAll(".accordion-button");
+
+    accordions.forEach((accordion) => {
+        accordion.addEventListener("click", () => {
+            accordion.classList.toggle("active");
+            const panel = accordion.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = `${panel.scrollHeight}px`;
+            }
+        });
+    });
 }
 
 constructor();

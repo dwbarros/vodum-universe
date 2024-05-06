@@ -1,0 +1,484 @@
+[
+    {
+        "intelligence": 267,
+        "wisdom": 319,
+        "interfacing": 463,
+        "mysticPower": "Telepathy",
+        "mysticPowerScore": 3,
+        "techPower": "Sensory Transduction",
+        "techPowerScore": 3
+    },
+    {
+        "intelligence": 127,
+        "wisdom": 483,
+        "interfacing": 890,
+        "mysticPower": "Alchemy",
+        "mysticPowerScore": 5,
+        "techPower": "Wave Manipulation",
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 695,
+        "wisdom": 416,
+        "interfacing": 206,
+        "mysticPower": "Astral Projection",
+        "mysticPowerScore": 1,
+        "techPower": "Frequency Manipulation",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 208,
+        "wisdom": 296,
+        "interfacing": 171,
+        "mysticPower": "Prescience",
+        "mysticPowerScore": 2,
+        "techPower": "Reality Simulation",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 30,
+        "wisdom": 393,
+        "interfacing": 371,
+        "mysticPower": "Casting Speed",
+        "mysticPowerScore": 3,
+        "techPower": "Quantum Manipulation",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 510,
+        "wisdom": 668,
+        "interfacing": 615,
+        "mysticPower": "Hypnomancy",
+        "mysticPowerScore": 5,
+        "techPower": "Software Adaptation",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 465,
+        "wisdom": 871,
+        "interfacing": 597,
+        "mysticPower": "Banishment",
+        "mysticPowerScore": 4,
+        "techPower": "Digital Interface",
+        "techPowerScore": 3
+    },
+    {
+        "intelligence": 566,
+        "wisdom": 935,
+        "interfacing": 657,
+        "mysticPower": "Elemental Skill",
+        "mysticPowerScore": 5,
+        "techPower": "Energy Fusion",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 392,
+        "wisdom": 504,
+        "interfacing": 440,
+        "mysticPower": "Memory Manipulation",
+        "mysticPowerScore": 3,
+        "techPower": "Neural Programming",
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 447,
+        "wisdom": 556,
+        "interfacing": 587,
+        "mysticPower": "Spiritual Vision",
+        "mysticPowerScore": 3,
+        "techPower": "Quantum Manipulation",
+        "techPowerScore": 3
+    },
+    {
+        "intelligence": 491,
+        "wisdom": 530,
+        "interfacing": 75,
+        "mysticPower": "Space Manipulation",
+        "mysticPowerScore": 1,
+        "techPower": "Digital Interface",
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 60,
+        "wisdom": 508,
+        "interfacing": 393,
+        "mysticPower": "Time Control",
+        "mysticPowerScore": 5,
+        "techPower": "Energy Conversion",
+        "techPowerScore": 3
+    },
+    {
+        "intelligence": 475,
+        "wisdom": 428,
+        "interfacing": 828,
+        "mysticPower": "Shadow Manipulation",
+        "mysticPowerScore": 3,
+        "techPower": "Signal Isolation",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 483,
+        "wisdom": 838,
+        "interfacing": 894,
+        "mysticPower": "Spectromancy",
+        "mysticPowerScore": 1,
+        "techPower": "Signal Amplification",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 380,
+        "wisdom": 387,
+        "interfacing": 372,
+        "mysticPower": "Summoning",
+        "mysticPowerScore": 2,
+        "techPower": "Sensory Transduction",
+        "techPowerScore": 3
+    },
+    {
+        "intelligence": 627,
+        "wisdom": 452,
+        "interfacing": 422,
+        "mysticPower": "Illusion Control",
+        "mysticPowerScore": 1,
+        "techPower": "Data Conversion",
+        "techPowerScore": 3
+    },
+    {
+        "intelligence": 603,
+        "wisdom": 120,
+        "interfacing": 468,
+        "mysticPower": "Magical Absorption",
+        "mysticPowerScore": 5,
+        "techPower": "Digital Interface",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 204,
+        "wisdom": 612,
+        "interfacing": 500,
+        "mysticPower": "Alchemy",
+        "mysticPowerScore": 2,
+        "techPower": "Mystical Hacking",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 243,
+        "wisdom": 504,
+        "interfacing": 419,
+        "mysticPower": "Cryomancy",
+        "mysticPowerScore": 5,
+        "techPower": "Energy Manipulation",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 490,
+        "wisdom": 580,
+        "interfacing": 568,
+        "mysticPower": "Eternal Flame Manipulation",
+        "mysticPowerScore": 4,
+        "techPower": "Energy Fusion",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 453,
+        "wisdom": 411,
+        "interfacing": 375,
+        "mysticPower": "Aura Perception",
+        "mysticPowerScore": 1,
+        "techPower": "Augmented Reality",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 643,
+        "wisdom": 512,
+        "interfacing": 487,
+        "mysticPower": "Hydromancy",
+        "mysticPowerScore": 3,
+        "techPower": "Force Field",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 462,
+        "wisdom": 466,
+        "interfacing": 351,
+        "mysticPower": "Casting Speed",
+        "mysticPowerScore": 5,
+        "techPower": "Neural Interface",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 852,
+        "wisdom": 679,
+        "interfacing": 606,
+        "mysticPower": "Emotional Manipulation",
+        "mysticPowerScore": 4,
+        "techPower": "Radiation Manipulation",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 271,
+        "wisdom": 668,
+        "interfacing": 410,
+        "mysticPower": "Spiritual Vision",
+        "mysticPowerScore": 5,
+        "techPower": "Digital Interface",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 198,
+        "wisdom": 444,
+        "interfacing": 481,
+        "mysticPower": "Time Control",
+        "mysticPowerScore": 3,
+        "techPower": "Light Refraction",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 505,
+        "wisdom": 523,
+        "interfacing": 200,
+        "mysticPower": "Natural Bond",
+        "mysticPowerScore": 3,
+        "techPower": "Holographic Projection",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 724,
+        "wisdom": 331,
+        "interfacing": 252,
+        "mysticPower": "Dream Manipulation",
+        "mysticPowerScore": 4,
+        "techPower": "Spiritual Firewall",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 365,
+        "wisdom": 534,
+        "interfacing": 566,
+        "mysticPower": "Pyromancy",
+        "mysticPowerScore": 2,
+        "techPower": "Sensory Transduction",
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 698,
+        "wisdom": 689,
+        "interfacing": 631,
+        "mysticPower": "Communication",
+        "mysticPowerScore": 4,
+        "techPower": "Mystical Cryptography",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 465,
+        "wisdom": 390,
+        "interfacing": 627,
+        "mysticPower": "Necromancy",
+        "mysticPowerScore": 5,
+        "techPower": "Spiritual Firewall",
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 229,
+        "wisdom": 390,
+        "interfacing": 703,
+        "mysticPower": "Summoning",
+        "mysticPowerScore": 1,
+        "techPower": "Radiation Manipulation",
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 128,
+        "wisdom": 555,
+        "interfacing": 592,
+        "mysticPower": "Hypnomancy",
+        "mysticPowerScore": 2,
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 323,
+        "wisdom": 750,
+        "interfacing": 698,
+        "mysticPower": "Mind Reading",
+        "mysticPowerScore": 1,
+        "techPower": "Nanotech",
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 628,
+        "wisdom": 335,
+        "interfacing": 397,
+        "mysticPower": "Space Manipulation",
+        "mysticPowerScore": 2,
+        "techPower": "Artificial Intelligence Control",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 658,
+        "wisdom": 28,
+        "interfacing": 457,
+        "mysticPower": "Darkness Manipulation",
+        "mysticPowerScore": 4,
+        "techPower": "Wave Manipulation",
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 387,
+        "wisdom": 180,
+        "interfacing": 447,
+        "mysticPower": "Memory Manipulation",
+        "mysticPowerScore": 3,
+        "techPower": "Genetic Modification",
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 453,
+        "wisdom": 98,
+        "interfacing": 380,
+        "mysticPower": "Alchemy",
+        "mysticPowerScore": 4,
+        "techPower": "Voice Synthesis",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 267,
+        "wisdom": 439,
+        "interfacing": 583,
+        "mysticPower": "Summoning",
+        "mysticPowerScore": 2,
+        "techPower": "Force Field",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 372,
+        "wisdom": 418,
+        "interfacing": 839,
+        "mysticPower": "Casting Speed",
+        "mysticPowerScore": 3,
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 509,
+        "wisdom": 465,
+        "interfacing": 225,
+        "mysticPower": "Aura Perception",
+        "mysticPowerScore": 3,
+        "techPower": "Digital Teleportation",
+        "techPowerScore": 1
+    },
+    {
+        "intelligence": 643,
+        "wisdom": 605,
+        "interfacing": 391,
+        "mysticPower": "Cryomancy",
+        "mysticPowerScore": 1,
+        "techPower": "Reality Simulation",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 117,
+        "wisdom": 421,
+        "interfacing": 944,
+        "mysticPower": "Spiritual Resonance",
+        "mysticPowerScore": 5,
+        "techPower": "Neural Interface",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 805,
+        "wisdom": 321,
+        "interfacing": 620,
+        "mysticPower": "Shadow Manipulation",
+        "mysticPowerScore": 1,
+        "techPower": "Genetic Modification",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 275,
+        "wisdom": 926,
+        "interfacing": 224,
+        "mysticPower": "Telepathy",
+        "mysticPowerScore": 2,
+        "techPower": "Artificial Intelligence Control",
+        "techPowerScore": 3
+    },
+    {
+        "intelligence": 115,
+        "wisdom": 507,
+        "interfacing": 554,
+        "mysticPower": "Time Control",
+        "mysticPowerScore": 5,
+        "techPower": "Dimensional Fusion",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 754,
+        "wisdom": 221,
+        "interfacing": 534,
+        "mysticPower": "Pyromancy",
+        "mysticPowerScore": 2,
+        "techPower": "Mystical Hacking",
+        "techPowerScore": 2
+    },
+    {
+        "intelligence": 592,
+        "wisdom": 487,
+        "interfacing": 590,
+        "mysticPower": "Alchemy",
+        "mysticPowerScore": 4,
+        "techPower": "Reality Simulation",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 686,
+        "wisdom": 809,
+        "interfacing": 504,
+        "mysticPower": "Soul Bond",
+        "mysticPowerScore": 5,
+        "techPower": "Voice Synthesis",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 646,
+        "wisdom": 550,
+        "interfacing": 243,
+        "mysticPower": "Emotional Manipulation",
+        "mysticPowerScore": 3,
+        "techPower": "Simulated Reality Navigation",
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 430,
+        "wisdom": 580,
+        "interfacing": 491,
+        "mysticPower": "Casting Speed",
+        "mysticPowerScore": 1,
+        "techPowerScore": 4
+    },
+    {
+        "intelligence": 190,
+        "wisdom": 303,
+        "interfacing": 844,
+        "mysticPower": "Illusion Control",
+        "mysticPowerScore": 1,
+        "techPower": "Holographic Projection",
+        "techPowerScore": 3
+    },
+    {
+        "intelligence": 441,
+        "wisdom": 684,
+        "interfacing": 779,
+        "mysticPower": "Magical Resistance",
+        "mysticPowerScore": 3,
+        "techPowerScore": 5
+    },
+    {
+        "intelligence": 598,
+        "wisdom": 310,
+        "interfacing": 403,
+        "mysticPower": "Elemental Skill",
+        "mysticPowerScore": 2,
+        "techPower": "Multidimensional Integration",
+        "techPowerScore": 3
+    }
+]
